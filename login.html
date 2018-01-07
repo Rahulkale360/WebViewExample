@@ -1,0 +1,17 @@
+<html>
+<script>
+    function load()
+    {
+    var name=document.getElementById("uname").value;
+    var pass=document.getElementById("pass").value;
+    login_interface.getData(name,pass);
+    }
+</script>
+<body>
+<h1> Login Here </h1>
+UName :<input type="text" id="uname"/> <br/>
+UPass :<input type="password" id="pass"/> <br/>
+<input type="button" id="SUBMIT" onclick="load()"> <br/>
+
+</body>
+</html>
